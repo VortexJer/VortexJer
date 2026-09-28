@@ -16,12 +16,23 @@ works. AI co-authorship is recorded in the commits.
 | Project | What it is | Evidence |
 |---|---|---|
 | [**AISight**](https://github.com/VortexJer/AISight) | Five CLIs that let an AI agent *measure* what a human would *look at*: 3D CAD, PCB layouts, animation, UVs/textures and materials. Deterministic reports with a location and a fix for every finding. | 6 packages on PyPI, published via OIDC (no stored tokens) · CI matrix Ubuntu/Windows/macOS · 272 tests |
-| [**NovaChat**](https://github.com/VortexJer/NovaChat-AI) | Self-built AI chat client with no agent framework: own streaming tool loop, hand-written MCP client, `.docx`/`.pptx`/`.xlsx` generation. | Found and fixed an SSRF (IP validated before the request *and* at the socket, closing DNS rebinding) · scrypt + AES-256-GCM · Docker → GHCR → Render |
+| [**NovaChat**](https://github.com/VortexJer/NovaChat-AI) | Self-built AI chat client with no agent framework: own streaming tool loop, hand-written MCP client, `.docx`/`.pptx`/`.xlsx` generation. | Passwords with scrypt, third-party keys encrypted with AES-256-GCM · Docker → GHCR → Render |
 | [**Orquestador**](https://github.com/VortexJer/orquestador) | CLI version of NovaChat: FastAPI gateway that routes each task to one of 21 domains and fails over across 23 LLM providers. | 1,097 tests · router accuracy measured on an eval set and enforced as a CI gate |
-| [**MotorForge**](https://github.com/VortexJer/MotorForge) | Desktop app that simulates internal-combustion engines and explains each failure with its causal chain. 0D Otto cycle, voxel FEA, hardware-in-the-loop digital twin. *(in development)* | 178 Vitest tests · Windows NSIS installer |
+| [**MotorForge**](https://github.com/VortexJer/MotorForge) | Desktop app that simulates an internal-combustion engine and explains each failure with its causal chain: 0D Otto cycle, rigid-body physics lab, hardware-in-the-loop bench. *(in development: one reference engine today)* | 178 Vitest tests · Windows NSIS installer |
 | [**ECONOSIM**](https://github.com/VortexJer/ECONOSIM) | Economic sandbox to test whether an AI can earn its own living: a fake internet of real-API twins charging real prices, real market data with the era masked, and an Electron panel to watch it all. | Append-only SQLite ledger · agents trained with evolution strategies and chaotic walk-forward validation · live mode where real data comes in and no action goes out |
 | [**goldentokens**](https://github.com/VortexJer/Goldentoken) | Token-saving CLIs and Claude Code hooks, based on an audit of real agent sessions (~88 % of tokens went to reading images). | Risk-tiered installer |
 | [**ShieldX**](https://github.com/VortexJer/ShieldX) | Manifest V3 ad, tracker and cookie-banner blocker for Chrome. | 360+ `declarativeNetRequest` rules |
+
+<table>
+  <tr>
+    <td width="50%"><a href="https://github.com/VortexJer/MotorForge"><img src="https://raw.githubusercontent.com/VortexJer/MotorForge/main/docs/physics-lab.png" alt="MotorForge physics lab"></a><br><sub><b>MotorForge</b> · engine physics lab</sub></td>
+    <td width="50%"><a href="https://github.com/VortexJer/ECONOSIM"><img src="https://raw.githubusercontent.com/VortexJer/ECONOSIM/main/docs/panel.png" alt="ECONOSIM panel"></a><br><sub><b>ECONOSIM</b> · training by generations</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><a href="https://github.com/VortexJer/NovaChat-AI"><img src="https://raw.githubusercontent.com/VortexJer/NovaChat-AI/main/docs/screenshot.jpg" alt="NovaChat"></a><br><sub><b>NovaChat</b> · chat client with real tools</sub></td>
+    <td width="50%"><a href="https://github.com/VortexJer/orquestador"><img src="https://raw.githubusercontent.com/VortexJer/orquestador/main/docs/screenshot.png" alt="Orquestador"></a><br><sub><b>Orquestador</b> · routing a task to a specialist</sub></td>
+  </tr>
+</table>
 
 #### Toolbox
 
