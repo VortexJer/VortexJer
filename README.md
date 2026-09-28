@@ -25,11 +25,11 @@ works. AI co-authorship is recorded in the commits.
 
 <table>
   <tr>
-    <td width="50%"><a href="https://github.com/VortexJer/MotorForge"><img src="https://raw.githubusercontent.com/VortexJer/MotorForge/main/docs/physics-lab.png" alt="MotorForge physics lab"></a><br><sub><b>MotorForge</b> · engine physics lab</sub></td>
-    <td width="50%"><a href="https://github.com/VortexJer/ECONOSIM"><img src="https://raw.githubusercontent.com/VortexJer/ECONOSIM/main/docs/panel.png" alt="ECONOSIM panel"></a><br><sub><b>ECONOSIM</b> · training by generations</sub></td>
+    <td width="50%"><a href="https://github.com/VortexJer/AISight"><img src="https://raw.githubusercontent.com/VortexJer/AISight/main/showcase/robot/out/renders/01_iso.png" alt="AISight"></a><br><sub><b>AISight</b> · a robot modelled and verified by an AI agent</sub></td>
+    <td width="50%"><a href="https://github.com/VortexJer/MotorForge"><img src="https://raw.githubusercontent.com/VortexJer/MotorForge/main/docs/physics-lab.png" alt="MotorForge"></a><br><sub><b>MotorForge</b> · engine physics lab</sub></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/VortexJer/NovaChat-AI"><img src="https://raw.githubusercontent.com/VortexJer/NovaChat-AI/main/docs/screenshot.jpg" alt="NovaChat"></a><br><sub><b>NovaChat</b> · chat client with real tools</sub></td>
+    <td width="50%"><a href="https://github.com/VortexJer/ECONOSIM"><img src="https://raw.githubusercontent.com/VortexJer/ECONOSIM/main/docs/panel.png" alt="ECONOSIM"></a><br><sub><b>ECONOSIM</b> · training by generations</sub></td>
     <td width="50%"><a href="https://github.com/VortexJer/orquestador"><img src="https://raw.githubusercontent.com/VortexJer/orquestador/main/docs/screenshot.png" alt="Orquestador"></a><br><sub><b>Orquestador</b> · routing a task to a specialist</sub></td>
   </tr>
 </table>
