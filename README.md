@@ -25,12 +25,12 @@ works. AI co-authorship is recorded in the commits.
 
 <table>
   <tr>
-    <td width="50%"><a href="https://github.com/VortexJer/PC-Control"><img src="https://raw.githubusercontent.com/VortexJer/PC-Control/main/docs/pc-control.png" alt="PC-Control"></a><br><sub><b>PC-Control</b> · Claude using Word while you keep your mouse</sub></td>
-    <td width="50%"><a href="https://github.com/VortexJer/AISight"><img src="https://raw.githubusercontent.com/VortexJer/AISight/main/showcase/robot/out/renders/01_iso.png" alt="AISight"></a><br><sub><b>AISight</b> · a robot modelled and verified by an AI agent</sub></td>
+    <td colspan="3"><a href="https://github.com/VortexJer/PC-Control"><img src="https://raw.githubusercontent.com/VortexJer/PC-Control/main/docs/pc-control.png" alt="PC-Control"></a><br><sub><b>PC-Control</b> · Claude using Word while you keep your mouse</sub></td>
   </tr>
   <tr>
-    <td width="50%"><a href="https://github.com/VortexJer/ECONOSIM"><img src="https://raw.githubusercontent.com/VortexJer/ECONOSIM/main/docs/panel.png" alt="ECONOSIM"></a><br><sub><b>ECONOSIM</b> · training by generations</sub></td>
-    <td width="50%"><a href="https://github.com/VortexJer/orquestador"><img src="https://raw.githubusercontent.com/VortexJer/orquestador/main/docs/screenshot.png" alt="Orquestador"></a><br><sub><b>Orquestador</b> · routing a task to a specialist</sub></td>
+    <td width="33%"><a href="https://github.com/VortexJer/AISight"><img src="assets/aisight-4x3.png" alt="AISight"></a><br><sub><b>AISight</b> · a robot modelled and verified by an AI agent</sub></td>
+    <td width="33%"><a href="https://github.com/VortexJer/ECONOSIM"><img src="assets/econosim-4x3.png" alt="ECONOSIM"></a><br><sub><b>ECONOSIM</b> · generations and champions</sub></td>
+    <td width="33%"><a href="https://github.com/VortexJer/orquestador"><img src="assets/orquestador-4x3.png" alt="Orquestador"></a><br><sub><b>Orquestador</b> · routing a task to a specialist</sub></td>
   </tr>
 </table>
 
