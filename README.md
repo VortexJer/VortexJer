@@ -15,6 +15,7 @@ works. AI co-authorship is recorded in the commits.
 
 | Project | What it is | Evidence |
 |---|---|---|
+| [**PC-Control**](https://github.com/VortexJer/PC-Control) | MCP server that lets Claude see and operate Windows apps without stealing focus or moving your mouse. Reads each window the cheapest way (UI Automation text, OCR or image) and writes into Word and Excel via COM without touching your selection. | On PyPI as `claude-pc-control` · 16 stars · re-verifies the window and element right before every action (closes TOCTOU races) |
 | [**AISight**](https://github.com/VortexJer/AISight) | Five CLIs that let an AI agent *measure* what a human would *look at*: 3D CAD, PCB layouts, animation, UVs/textures and materials. Deterministic reports with a location and a fix for every finding. | 6 packages on PyPI, published via OIDC (no stored tokens) · CI matrix Ubuntu/Windows/macOS · 272 tests |
 | [**NovaChat**](https://github.com/VortexJer/NovaChat-AI) | Self-built AI chat client with no agent framework: own streaming tool loop, hand-written MCP client, `.docx`/`.pptx`/`.xlsx` generation. | Passwords with scrypt, third-party keys encrypted with AES-256-GCM · Docker → GHCR → Render |
 | [**Orquestador**](https://github.com/VortexJer/orquestador) | CLI version of NovaChat: FastAPI gateway that routes each task to one of 21 domains and fails over across 23 LLM providers. | 1,097 tests · router accuracy measured on an eval set and enforced as a CI gate |
@@ -25,12 +26,16 @@ works. AI co-authorship is recorded in the commits.
 
 <table>
   <tr>
+    <td width="50%"><a href="https://github.com/VortexJer/PC-Control"><img src="https://raw.githubusercontent.com/VortexJer/PC-Control/main/docs/pc-control.png" alt="PC-Control"></a><br><sub><b>PC-Control</b> · Claude using Word while you keep your mouse</sub></td>
     <td width="50%"><a href="https://github.com/VortexJer/AISight"><img src="https://raw.githubusercontent.com/VortexJer/AISight/main/showcase/robot/out/renders/01_iso.png" alt="AISight"></a><br><sub><b>AISight</b> · a robot modelled and verified by an AI agent</sub></td>
-    <td width="50%"><a href="https://github.com/VortexJer/MotorForge"><img src="https://raw.githubusercontent.com/VortexJer/MotorForge/main/docs/physics-lab.png" alt="MotorForge"></a><br><sub><b>MotorForge</b> · engine physics lab</sub></td>
   </tr>
   <tr>
+    <td width="50%"><a href="https://github.com/VortexJer/MotorForge"><img src="https://raw.githubusercontent.com/VortexJer/MotorForge/main/docs/physics-lab.png" alt="MotorForge"></a><br><sub><b>MotorForge</b> · engine physics lab</sub></td>
     <td width="50%"><a href="https://github.com/VortexJer/ECONOSIM"><img src="https://raw.githubusercontent.com/VortexJer/ECONOSIM/main/docs/panel.png" alt="ECONOSIM"></a><br><sub><b>ECONOSIM</b> · training by generations</sub></td>
+  </tr>
+  <tr>
     <td width="50%"><a href="https://github.com/VortexJer/orquestador"><img src="https://raw.githubusercontent.com/VortexJer/orquestador/main/docs/screenshot.png" alt="Orquestador"></a><br><sub><b>Orquestador</b> · routing a task to a specialist</sub></td>
+    <td width="50%"></td>
   </tr>
 </table>
 
